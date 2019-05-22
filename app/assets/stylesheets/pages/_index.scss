@@ -1,2 +1,38 @@
 // Import page-specific CSS files here.
 @import "home";
+ li{
+  list-style-type: none;
+ }
+a {
+
+  color:white;
+  &:hover{
+  color:white;
+  text-decoration: none;
+  }
+}
+
+.to_right_show {
+  position:absolute;
+  right: 10px;
+}
+
+.to_right_index {
+  position:absolute;
+  right: 90px;
+}
+
+.to_top {
+  top: 10px;
+}
+
+.text-lg {
+  font-size: 20px;
+  position:absolute;
+  font-weight: 700;
+  border-bottom: 3px solid white;
+}
+
+.lg {
+  width: 100%;
+}
